@@ -1,13 +1,13 @@
 <?php
 
-require_once 'menu.php';
+require_once 'Menu.php';
 require_once 'Calculator.php';
-require_once 'operations/Operation.php';
-require_once 'operations/Addition.php';
-require_once 'operations/Subtraction.php';
-require_once 'operations/Multiplication.php';
-require_once 'operations/Division.php';
-require_once 'interfaces/Loggable.php';
+require_once 'Operations/Operation.php';
+require_once 'Operations/Addition.php';
+require_once 'Operations/Subtraction.php';
+require_once 'Operations/Multiplication.php';
+require_once 'Operations/Division.php';
+require_once 'Interfaces/Loggable.php';
 
 function getNumber(string $prompt): float {
 
